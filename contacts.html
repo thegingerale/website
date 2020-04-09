@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contacts | the gingerAle</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Bellota+Text&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Kanit:wght@100&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Hind+Madurai&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cardo&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+<link rel="icon" href="img/favicon..ico">
+
+</head>
+
+<body>
+
+
+
+<div class="container"> 
+  <nav class="navbar">
+    <ul>
+      <li><a class="navbar-brand" href="#"><img src="img/favicon.gif" width="30" height="30"></a></li>
+      <li><a class="non_active" href="index.html">home</a></li>
+      <li><a class= "non_active" href="diario_di_viaggio.html">diario di viaggio</a></li>
+      <li><a class= "non_active" href="blog.html">blog</a>
+        <ul class="dropdown">
+            <li><a class="non_active" href="lifestyle.html">lifestyle</a></li>
+            <li><a class="non_active" href="healthylife.html">healthy life</a></li>
+            <li><a class="non_active" href="reviews.html">reviews</a></li>
+        </ul> 
+      </li>
+      
+      <li><a class= "non_active" href="#">about me</a></li>
+      <li><a class= "active" href="contacts.html">contacts</a></li>
+      <li style="float:right"><a href="#" title="bloglovin'" ><i class="fa fa-heart" aria-hidden="true"></i></a></li>
+      <li style="float:right"><a href="#" title="pinterest" ><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+      <li style="float:right"><a href="#" title="instagram" ><i class="fa fa-instagram"></i></a></li>
+    </ul>
+  </nav>
+</div>
+
+<a onclick="topFunction()" id="myBtn1" title="Go to top"><i class='far fa-arrow-alt-circle-right' id="arrow" style='font-size:20px'></i>Back to top</a>
+<section class="all">
+<form class="form" action="/action_page.php">
+  <div class="container_news">
+    <div class="news">
+      <ul class="registrati">Sign up to </ul>
+      <ul class="newsletter">my Newsletter</ul> 
+    </div>
+    <p class="new">Iscriviti alla mia newsletter per avere accesso a contenuti, consigli e immagini esclusive.</p><p class="new"> Basta un click!</p>
+  </div>
+
+  <div class="container_news" style="background-color:white">
+    <input type="text_news" placeholder="enter your name" name="name" required>
+    <input type="text_news" placeholder="enter your e-mail" name="mail" required>
+    <label class="label">
+      <input type="checkbox" checked="checked" name="subscribe">   By checking this box, you confirm that you have read and are agreeing to Mailchimp terms of use regarding the storage of the data submitted through this form.
+    </label>
+  </div>
+
+  <div class="btn_news">
+    <input type="submit" value="Subscribe">
+  </div>
+</form>
+
+</section>
+
+
+
+
+
+
+
+<script type="text/javascript">
+mybutton = document.getElementById("myBtn1");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0; // per Safari
+  document.documentElement.scrollTop = 0; // per Chrome 
+}
+</script>
+</body>
+</html>
+
+

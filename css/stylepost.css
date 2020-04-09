@@ -146,6 +146,10 @@ letter-spacing: 0.5px;
 
 }
 
+.immagine_titolo {
+  width:100%;
+}
+
 .immagine_post {
   width:80%;
     margin-right: auto;

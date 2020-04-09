@@ -146,9 +146,7 @@ letter-spacing: 0.5px;
 
 }
 
-.immagine_titolo {
-  width:100%;
-}
+
 
 .immagine_post {
   width:80%;
@@ -165,7 +163,9 @@ letter-spacing: 0.5px;
   margin-bottom: 2em;
 }
 
-
+.immagine_titolo {
+  width:100%;
+}
 
 .immagine_titolo_post {
   width:100%;

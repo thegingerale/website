@@ -100,7 +100,7 @@ Scegliere giorno dopo giorno di prendersi cura della propria pelle è un piccolo
 </div>
 
 <div class="immagine_post">
-<img class="immagine_uno_post"src="img/detersione.gif">
+<img class="immagine_uno_post"src="img/detersione.gif"></a>
 </div>
 
 <div class="immagine_post">
@@ -110,7 +110,7 @@ Scegliere giorno dopo giorno di prendersi cura della propria pelle è un piccolo
 
  <div class="parte_post">
  La mattina eseguo quattro step essenziali:
-<li class="elenco_numerato"><i class="colored_text_grey">PRIMO STEP - detersione</i><br> Ogni mattina inizio la mia giornata lavando il viso con il <a href="" title="gel detergente hydra végétal" class="nomi_prodotti">Gel Detergente (1.)</a> della linea Hydra Végétal di Yves Rocher. La parola d'ordine di questo prodotto è "freschezza": la texture in gel e la fragranza piacevole conferiscono a me e alla mia pelle tutta la carica di cui ho bisogno appena sveglia. <br> Questo gel lascia la pelle idratata e pulita, evitando la sensazione di pelle secca e tirata che, invece, mi lasciano altri prodotti. Inoltre, la sua composizione totalmente naturale lo rende perfetto per la mia pelle delicata. <br> Per applicare e massaggiare il detergente uso la <a href="" title="spazzola elettrica innoliving"class="nomi_prodotti">spazzola elettrica (2.)</a> di Innoliving. Aiuta a pulire la pelle in profondità e a riattivare la circolazione, oltre ad apportare una leggera esfoliazione. Questo modello, in particolare, dispone di diverse tipologie di testine adatte ad ogni esigenza e tipo di pelle. 
+<li class="elenco_numerato"><i class="colored_text_grey">PRIMO STEP - detersione</i><br> Ogni mattina inizio la mia giornata lavando il viso con il <a href="https://www.yves-rocher.it/it/viso/gel-detergente-ultra-freschezza" title="gel detergente hydra végétal" class="nomi_prodotti">Gel Detergente (1.)</a> della linea Hydra Végétal di Yves Rocher. La parola d'ordine di questo prodotto è "freschezza": la texture in gel e la fragranza piacevole conferiscono a me e alla mia pelle tutta la carica di cui ho bisogno appena sveglia. <br> Questo gel lascia la pelle idratata e pulita, evitando la sensazione di pelle secca e tirata che, invece, mi lasciano altri prodotti. Inoltre, la sua composizione totalmente naturale lo rende perfetto per la mia pelle delicata. <br> Per applicare e massaggiare il detergente uso la <a href="" title="spazzola elettrica innoliving"class="nomi_prodotti">spazzola elettrica (2.)</a> di Innoliving. Aiuta a pulire la pelle in profondità e a riattivare la circolazione, oltre ad apportare una leggera esfoliazione. Questo modello, in particolare, dispone di diverse tipologie di testine adatte ad ogni esigenza e tipo di pelle. 
 </li>
 <li class="elenco_numerato"><i class="colored_text_grey">SECONDO STEP - tonico </i><br> Una tappa fondamentale per la mia routine è l'applicazione della <a href="" title="lozione purificante vinopure"class="nomi_prodotti"> Lozione Purificante (3.)</a> della linea Vinopure di Caudalie, con acido salicilico naturale e oli essenziali bio. Oltre a rinfrescare e purificare ulteriormente la pelle, la rende immediatamente radiosa, restringe i pori e attenua le imperfezioni. </li>
 <li class="elenco_numerato"><i class="colored_text_grey">TERZO STEP - siero </i><br> caudalie;</li>
@@ -347,10 +347,17 @@ Anche la texture e il profumo dei prodotti non sono da trascurare. <br>
 </div>
 
 
-
-
-
 </div>
+
+<div class="comment_box">
+<textarea  id="title" type="text "rows="5" cols="20" onkeyup="Allow()" placeholder="write a comment......"></textarea>
+<input class="postit" type="submit" value="Post it!" onclick="insert()" style="width:20%;" /></form>
+</div>
+<div id="display"></div>
+
+
+
+
 
 </div>
 
@@ -480,7 +487,6 @@ Anche la texture e il profumo dei prodotti non sono da trascurare. <br>
 
 
 
-
 <footer>
   <hr width="100%" size="3">
   <section class="footer_social">
@@ -568,8 +574,44 @@ function topFunction() {
 }
 </script>
 
-<script async defer data-pin-hover="true" data-pin-tall="true" data-pin-round="true" src="//assets.pinterest.com/js/pinit.js" style="float:right"></script>
- <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us19.list-manage.com","uuid":"5c1bad099d553f2023b581de2","lid":"d2a5f5f15a","uniqueMethods":true}) })</script>
-   
+<script type="text/javascript">
+var titles = [];
+var titleInput = document.getElementById("title");
+var messageBox = document.getElementById("display");
+function Allow()
+{
+if (!user.title.value.match(/[a-zA-Z]$/) && user.title.value !="")
+{
+user.title.value="";
+alert("Please Enter only alphabets");
+}
+window.location.reload()
+}
+function insert () {
+titles.push(titleInput.value);
+clearAndShow();
+}
+function clearAndShow ()
+{
+titleInput.value = "";
+messageBox.innerHTML = "";
+messageBox.innerHTML += " " + titles.join("<br/> ") + "<br/>";
+}
+</script>
+
+<script async defer data-pin-hover="true" class="pinterest" data-pin-tall="true" data-pin-round="true" src="//assets.pinterest.com/js/pinit.js"></script>
+
+<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us19.list-manage.com","uuid":"5c1bad099d553f2023b581de2","lid":"d2a5f5f15a","uniqueMethods":true}) })</script>
+<script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us19.list-manage.com","uuid":"5c1bad099d553f2023b581de2","lid":"d2a5f5f15a","uniqueMethods":true}) })</script>
+
+
+
+
+
 </body>
 </html>
+
+
+
+
+

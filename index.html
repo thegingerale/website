@@ -19,8 +19,27 @@
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
-<link rel="icon" href="img/favicon..ico">
 
+<link rel="icon" type="image/png" width="100%" href="img/favicon.png">
+
+<style>
+ .section_ciao {
+  background-image: url('img/frase.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+
+ }
+
+ .parallax {
+  background: url('img/parallax.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 350px;
+  opacity: 0.5;
+
+ }
+
+</style>
 </head>
 
 <body>
@@ -28,31 +47,11 @@
 
 <section class="all">
   
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="img/slide1.gif" alt="First slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="img/slide2.gif" alt="Second slide">
-    </div>
-    <div class="carousel-item">
-      <img class="d-block w-100" src="img/slide3.gif" alt="Third slide">
-    </div>
+
+<div class="presentation">
+  <div class="presentationwallpaper">
+    <img class="moodboard" src="img/board2.png" width="90%">
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
 </div>
 
 <div class="container"> 
@@ -71,35 +70,36 @@
       
       <li><a class= "non_active" href="#">about me</a></li>
       <li><a class= "non_active" href="contacts.html">contacts</a></li>
+      <li><a class= "non_active" href="contacts.html">il progetto</a></li>
       <li style="float:right"><a href="#" title="bloglovin'" ><i class="fa fa-heart" aria-hidden="true"></i></a></li>
       <li style="float:right"><a href="#" title="pinterest" ><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-      <li style="float:right"><a href="#" title="instagram" ><i class="fa fa-instagram"></i></a></li>
+      <li style="float:right"><a href="https://www.instagram.com/alessandrameriani/" title="instagram" ><i class="fa fa-instagram"></i></a></li>
+      </div>
     </ul>
   </nav>
 </div>
-
-  <div class="section">
-    <div class="section_wrap">
-      <section class="section_ciao">
+<div class="presentation">
+  <div class="presentationwallpaper" >
+    <section class="section_ciao">
         <div class="widget_wrap">
           <div class="textwidget">
-            <div class="onehalf first" align="left">
-              <p class="p_page1"><a href="aboutme.html"><img class="hello"src="img/hello.jpg" width="250" height="250"></a></p>
-            <h4 class="h4_hello">Ciao,</h4>
-            <h5 class="h5_hello">Sono Alessandra</h5>
-            </div>
             <div class="onehalf" align="left">
-              <p class="p_page1"><br clear="all">Sono una ragazza di 20 anni, nata e vissuta a Salerno. Ora vivo a Bologna per studio.</p>
-              <p class="p_page1">"A like Adventure" è un blog sulla crescita personale, sui miei vaggi.
+              <p class="p_page1"> Sono una ragazza di 20 anni, nata e vissuta a Salerno. Ora vivo a Bologna per studio.<br>
+             "A like Adventure" è un blog sulla crescita personale, sui miei vaggi.
+              Qui condivido settimanalmente conoscenze e ispirazioni per diventare la versione migliore di se stesso e l'artefice della propria vita. <br>
+            "A like Adventure" è un blog sulla crescita personale, sui miei vaggi.
               Qui condivido settimanalmente conoscenze e ispirazioni per diventare la versione migliore di se stesso e l'artefice della propria vita.</p>
-              <p><a class="btn_more" href="aboutme.html">more about me</a></p>
             </div>
+            <div class="moreaboutme">
+              <p><a class="btn_more" href="aboutme.html">more about me</a></p>
+              <div>
           </div>
         </div>
       </section>
-    </div>
   </div>
+</div>
 
+  
 
 <div class="widget_area">
   <div class="sezione_foto">
@@ -158,6 +158,7 @@
 
   </div>
 </div>
+
 
 <a onclick="topFunction()" id="myBtn" title="Go to top"><i class='far fa-arrow-alt-circle-right' id="arrow" style='font-size:20px'></i>Back to top</a>
 
@@ -229,23 +230,67 @@
 </section>
 </section> 
 
+<div class="parallax-container">
+
+  <div class="parallax">
+     <p class="parallax_text">Non è un caso che il primo post sul mio blog riguardi la skincare. <br>
+Si tratta di un argomento che ho a cuore da qualche anno e che molte persone tendono a sottovalutare.
+Dedicarsi alla cura della pelle non è una pratica riservata unicamente a coloro che soffrono di visibili imperfezioni cutanee e di certo non equivale a sottrarre tempo agli impegni quotidiani.Non è un caso che il primo post sul mio blog riguardi la skincare. <br>
+Si tratta di un argomento che ho a cuore da qualche anno e che molte persone tendono a sottovalutare.
+Dedicarsi alla cura della pelle non è una pratica riservata unicamente a coloro che soffrono di visibili imperfezioni cutanee e di certo non equivale a sottrarre tempo agli impegni quotidiani.</p>
+  </div>
+
+</div>
+
+
+
+
 <div class="instagram">
 
   <div class="contenitore">
     <div class="latest">
       <li class="my">My Latest</li>
       <li class="ig-icon">
-        <a href="https://www.instagram.com/_._tauriel_._/" class="iconcina">
+        <a href="https://www.instagram.com/alessandrameriani/" class="iconcina">
           <img src="img/insta.jpg" width="60" height="60"class="round">
         </a>
-        <a href="https://www.instagram.com/_._tauriel_._/" class="account_name">@_._tauriel_._</a>
-          </li>
+        <a href="https://www.instagram.com/alessandrameriani/" class="account_name">@alessandrameriani</a>
+      </li>
       <hr width="85%" size="3">
       <li class="ig">Instagram Posts</li>
     </div>
   </div>
-  <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-     <div class="elfsight-app-e94b9d58-e63a-4ed2-a64d-bde88c2a0bf4"></div>
+  <div class="immagini_insta">
+  <div class="immagine_insta">
+    <a class="link_pic" href="https://www.instagram.com/alessandrameriani/" title="@alessandrameriani">
+      <img class="ig_posts" src="img/feed1.jpg">
+    </a>
+  </div>
+  <div class="immagine_insta">
+    <a class="link_pic" href="https://www.instagram.com/alessandrameriani/" title="@alessandrameriani">
+      <img class="ig_posts" src="img/feed2.jpg">
+    </a>
+  </div>
+  <div class="immagine_insta">
+    <a class="link_pic" href="https://www.instagram.com/alessandrameriani/" title="@alessandrameriani">
+      <img class="ig_posts" src="img/feed3.jpg">
+    </a>
+  </div>
+  <div class="immagine_insta">
+    <a class="link_pic" href="https://www.instagram.com/alessandrameriani/" title="@alessandrameriani">
+      <img class="ig_posts" src="img/feed4.jpg">
+    </a>
+  </div>
+  <div class="immagine_insta">
+    <a class="link_pic" href="https://www.instagram.com/alessandrameriani/" title="@alessandrameriani">
+      <img class="ig_posts" src="img/feed5.jpg">
+    </a>
+  </div>
+
+
+
+  </div>
+ 
 </div>
 
 
@@ -254,7 +299,7 @@
   <hr width="100%" size="3">
   <section class="footer_social">
     <div class="text_list_social">
-     <li><a class="info_text_social" href="#"><i class="fa fa-instagram" aria-hidden="true"></i> instagram</a></li>
+     <li><a class="info_text_social" href="https://www.instagram.com/alessandrameriani/"><i class="fa fa-instagram" aria-hidden="true"></i> instagram</a></li>
      <li><a class="info_text_social" href="#"><i class="fa fa-pinterest" aria-hidden="true"></i> pinterest</a></li>
      <li><a class="info_text_social" href="#"><i class="fa fa-heart" aria-hidden="true"></i> bloglovin'</a></li>
     </div>
@@ -324,10 +369,6 @@
   
 
 
-
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 <script type="text/javascript">
 mybutton = document.getElementById("myBtn");

@@ -82,7 +82,7 @@ letter-spacing: 0.5px;
 
 .parte_post {
   font-family: 'Hind Madurai', sans-serif;
-  font-size: 1em;
+  font-size: 1.2em;
   margin-top:1.6em;
   margin-bottom: 3em !important;
 }
@@ -428,4 +428,39 @@ display: inline;
  
 .share_link:hover {
  text-decoration: none;
+}
+
+
+.pinterest {
+top: 5px;
+margin-left: -1px;
+}
+
+
+/*-------------COMMENT BOX--------------------------------------------------------------*/
+
+.comentBox {
+  padding:2%;
+  width:90%;
+  border:1px solid #000;
+}
+
+.leftPanelImg {
+  float: left;
+  margin-left: 1em;
+  margin-right: 0.5em;
+}
+
+.rightPanel {
+  width:85%;
+  float: left;
+  margin-left: 1%;
+}
+
+.clear {
+  clear:both;
+}
+
+.postit {
+  width
 }

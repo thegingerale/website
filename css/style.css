@@ -1404,8 +1404,10 @@ hr {
   color: grey !important;
 }
 .container_news_nav {
-  padding: 0.5em;
+  padding: 0.6em;
   background-color: rgba(245, 224, 215, 0.30);
+  margin-right: 1em;
+  margin-top: 2em;
 }
 
 .registrati_nav {
@@ -1551,10 +1553,12 @@ footer {
 
 
 .container_news_footer {
-  padding: 0.6em;
+  padding: 0.8em;
   background-color: rgba(245, 224, 215, 0.35);
   width: 45%;
   float:left;
+  margin-top: 2em;
+  margin-right: 1em;
 }
 
 .registrati {
@@ -1836,6 +1840,13 @@ clear:both;
   margin-bottom: none !important;
 }
 
+.texl_listdiv {
+  display: block;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
 
 .info_text_col {
   float: left;
@@ -1890,6 +1901,15 @@ clear:both;
   clear:all;
 }
 
+.parallax_text {
+  display: block;
+  width: 50%;
+  margin: auto;
+  padding:9%;
+  font-family: 'Cardo', serif;
+  font-size: 1.3em;
+}
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -1912,7 +1932,7 @@ clear:both;
   display: none;
  }
 
-span {
+.hamburger {
   display: none !important;
 }
 }

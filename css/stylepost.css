@@ -600,3 +600,48 @@ width:100%;
   margin-top: 1em;
   margin-left: 0.5em;
 }
+
+
+
+@media only screen and (max-width:1200px) { 
+
+  .container {
+    display: none;
+  }
+.corpus_post {
+    margin: 1em 1em;
+    text-align: center;
+    text-align:  justify;
+}
+
+.all_post {
+  width:100%;
+}
+
+.shop {
+  display: none;
+}
+
+#slider-prodotti {
+  display: none;
+}
+#slider{
+  display: none;
+}
+.share_text {
+  width: 100%;
+}
+.immagine_post {
+  width: 100%;
+
+}
+
+.link_sfoglia {
+  float:right;
+  margin-right: 2em;
+  width: 40%;
+}
+.a2a_kit {
+  width: 50%;
+}
+}

@@ -22,6 +22,40 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
 
 <link rel="icon" type="image/png" width="100%" href="img/favicon.png">
+<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+  #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:350px;}
+  #mc_embed_signup {
+    margin-top: 0; 
+    margin-bottom: 0; 
+    background: #fff;
+    width: 30%;
+     margin-left: 4em; 
+    margin-right: 2em;
+    display: block;
+}
+.text_news {
+    border-radius: 10%;
+    font-size: 0.8em;
+    padding: 0.5em;
+    border: rgb(245, 224, 215);
+    border-style: dotted;
+}
+
+.mc-field-group {
+   margin: -0.5em !important;
+
+}
+
+
+
+input[type=submit] {
+    width: 100%;
+    padding: 0.5em; 
+    margin: 20px 0;
+}
+
+</style>
 
 <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/5c1bad099d553f2023b581de2/c083080cea1e73bd39b938680.js");</script>
 
@@ -54,7 +88,7 @@
 
 
 
-<span style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="fas fa-bars" id="hamburger"></i></span>
+<span class="hamburger" style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="fas fa-bars" id="hamburger"></i></span>
 <div id="myNav" class="overlay">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <div class="overlay-content">
@@ -130,11 +164,10 @@ function closeNav() {
         <div class="widget_wrap">
           <div class="textwidgetmobile">
             <div class="onehalf" align="left">
-              <p class="p_page1"> Sono una ragazza di 20 anni, nata e vissuta a Salerno. Ora vivo a Bologna per studio.<br>
-             "A like Adventure" è un blog sulla crescita personale, sui miei vaggi.
-              Qui condivido settimanalmente conoscenze e ispirazioni per diventare la versione migliore di se stesso e l'artefice della propria vita. <br>
-            "A like Adventure" è un blog sulla crescita personale, sui miei vaggi.
-              Qui condivido settimanalmente conoscenze e ispirazioni per diventare la versione migliore di se stesso e l'artefice della propria vita.</p>
+              <p class="p_page1"> Ciao! Sono Alessandra e ho 21 anni. Le mie passioni sono le cose che meglio mi identificano: amo il calore e la luce del sole, il vento leggero tra i capelli, il cappuccino di soia con la cannella, le poesie di Montale, le fragole, l'odore dei libri, le passeggiate in montagna, i fiori, il mare e i viaggi. <br> Da che ricordo ho sempre amato viaggiare: sin da piccolissima i miei genitori mi hanno portato in tante parti del mondo, pensate che a soli quattro mesi ero su un aereo per Santo Domingo. <br> Sono nata e vissuta in un piccolo paesino in provincia di Salerno, ma due anni fa, concluso il liceo scientifico mi sono trasferita a Bologna per frequentare l'Università . . .<br>
+             <!--E' stata una scelta difficile, ma credo sia stata la scelta migliore che abbia mai fatto. Mi ha consentito di crescere, di ritrovare me stessa, di coltivare le mie passioni...<br> "ThegingerAle" è la parte di me che ho imparato ad apprezzare, il mio lato più frizzante, impulsivo e solare. Ho deciso di costruire questo piccolo spazio online per condividere ciò che penso, ciò che faccio e ciò che mi fa stare bene, con la speranza di incuriosire, ispirare o semplicemente di dare positività a chiunque si ritrovi ad entrare. <br>
+             Benvenuto-->
+              </p>
             </div>
             <div class="moreaboutme">
               <p><a class="btn_more" href="aboutme.html">more about me</a></p>
@@ -304,9 +337,7 @@ function closeNav() {
 <div class="parallax-container">
 
   <div class="parallax">
-     <p class="parallax_text">Non è un caso che il primo post sul mio blog riguardi la skincare. <br>
-Si tratta di un argomento che ho a cuore da qualche anno e che molte persone tendono a sottovalutare.
-Dedicarsi alla cura della pelle non è una pratica riservata unicamente a coloro che soffrono di visibili imperfezioni cutanee e di certo non equivale a sottrarre tempo agli impegni quotidiani.</p>
+     <p class="parallax_text">"Il vero viaggio non è cercare nuove terre <br> ma avere nuovi occhi." <br> - M. Proust</p>
   </div>
 
 </div>
@@ -388,8 +419,11 @@ Dedicarsi alla cura della pelle non è una pratica riservata unicamente a coloro
 
 <section class="footer_one">
   <hr width="100%" size="3">
-<div class="form" action="/action_page.php">
-  <div class="container_news_footer">
+
+  <div id="mc_embed_signup">
+<form action="https://github.us19.list-manage.com/subscribe/post?u=5c1bad099d553f2023b581de2&amp;id=d2a5f5f15a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+    <div class="container_news_footer">
     <div class="news">
       <ul class="registrati_footer">Sign up and  </ul>
       <ul class="newsletter_footer"> Stay Inspired</ul> 
@@ -397,18 +431,27 @@ Dedicarsi alla cura della pelle non è una pratica riservata unicamente a coloro
 
     </div>
   </div>
-
   <div class="container_news_footer" style="background-color:white">
-    <input type="text_news" placeholder="enter your name" name="name" required>
-    <input type="text_news" placeholder="enter your e-mail" name="mail" required>
-    <label class="label">
-      <input type="checkbox" checked="checked" name="subscribe">   By checking this box, you agree to Mailchimp terms of use.
-    </label>
-    <div class="btn_news_footer">
-    <input type="submit_footer" value="Subscribe">
+<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+<div class="mc-field-group">
+  <label for="mce-EMAIL"> </label>
+  <input type="email" class="text_news" value="" placeholder="enter your e-mail" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+<div class="mc-field-group">
+  <label for="mce-FNAME"></label>
+  <input type="text"  class="text_news" value="" placeholder="enter your name" name="FNAME" class="" id="mce-FNAME">
+</div>
+  <div id="mce-responses" class="clear">
+    <div class="response" id="mce-error-response" style="display:none"></div>
+    <div class="response" id="mce-success-response" style="display:none"></div>
+  </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5c1bad099d553f2023b581de2_d2a5f5f15a" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
     </div>
   </div>
+</form>
 </div>
+
 <div class="logo_footer">
   <div class="logo_ginger_footer">
     <img src="img/logo_thegingerale.gif" alt="thegingerale logo" class="img_footer">
@@ -430,9 +473,11 @@ Dedicarsi alla cura della pelle non è una pratica riservata unicamente a coloro
 <section class="footer_two">
  <div class="footer_col">
   <div class="text_list">
+    <div class="texl_listdiv">
     <li><a class="info_text_col" href="cookiepolicy.html">cookie policy</a></li>
     <li><a class="info_text_col" href="privacypolicy.html">privacy policy</a></li>
     <li><a class="info_text_col" href="termsofuse.html">terms of use</a></li>
+  </div>
     <br>
     <li class="info_text_copy"> Copyright © 2020 The ginger ale -all rights reserved   ·  Web Design by <a class="webdesign" href="#">Alessandra Meriani </a> · all pics are mine</li>
   </div>
@@ -451,7 +496,6 @@ Dedicarsi alla cura della pelle non è una pratica riservata unicamente a coloro
      <li><a class="info_text_social" href="https://www.instagram.com/alessandrameriani/"><i class="fa fa-instagram" aria-hidden="true"></i> instagram</a></li>
      <li><a class="info_text_social" href="#"><i class="fa fa-pinterest" aria-hidden="true"></i> pinterest</a></li>
      <li><a class="info_text_social" href="#"><i class="fa fa-heart" aria-hidden="true"></i> bloglovin'</a></li>
-     <li><hr width="100%" size="3"></li>
     </div>
       
   </section>
@@ -459,8 +503,10 @@ Dedicarsi alla cura della pelle non è una pratica riservata unicamente a coloro
 
 <section class="footer_one">
 
-<div class="form" action="/action_page.php">
-  <div class="container_news_footer">
+<div id="mc_embed_signup">
+<form action="https://github.us19.list-manage.com/subscribe/post?u=5c1bad099d553f2023b581de2&amp;id=d2a5f5f15a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div id="mc_embed_signup_scroll">
+    <div class="container_news_footer">
     <div class="news">
       <ul class="registrati_footer">Sign up and  </ul>
       <ul class="newsletter_footer"> Stay Inspired</ul> 
@@ -468,17 +514,25 @@ Dedicarsi alla cura della pelle non è una pratica riservata unicamente a coloro
 
     </div>
   </div>
-
   <div class="container_news_footer" style="background-color:white">
-    <input type="text_news" placeholder="enter your name" name="name" required>
-    <input type="text_news" placeholder="enter your e-mail" name="mail" required>
-    <label class="label">
-      <input type="checkbox" checked="checked" name="subscribe">   By checking this box, you agree to Mailchimp terms of use.
-    </label>
-    <div class="btn_news_footer">
-    <input type="submit_footer" value="Subscribe">
+<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+<div class="mc-field-group">
+  <label for="mce-EMAIL"> </label>
+  <input type="email" class="text_news" value="" placeholder="enter your e-mail" name="EMAIL" class="required email" id="mce-EMAIL">
+</div>
+<div class="mc-field-group">
+  <label for="mce-FNAME"></label>
+  <input type="text"  class="text_news" value="" placeholder="enter your name" name="FNAME" class="" id="mce-FNAME">
+</div>
+  <div id="mce-responses" class="clear">
+    <div class="response" id="mce-error-response" style="display:none"></div>
+    <div class="response" id="mce-success-response" style="display:none"></div>
+  </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5c1bad099d553f2023b581de2_d2a5f5f15a" tabindex="-1" value=""></div>
+    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
     </div>
   </div>
+</form>
 </div>
 <div class="logo_footer">
   <div class="logo_ginger_footer">
@@ -519,6 +573,8 @@ Dedicarsi alla cura della pelle non è una pratica riservata unicamente a coloro
 
 
 
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[2]='FNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!--End mc_embed_signup-->
 
 
 

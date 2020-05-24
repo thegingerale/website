@@ -436,31 +436,167 @@ top: 5px;
 margin-left: -1px;
 }
 
-
-/*-------------COMMENT BOX--------------------------------------------------------------*/
-
-.comentBox {
-  padding:2%;
-  width:90%;
-  border:1px solid #000;
+.share_buttons {
+  width: 100%;
+ text-align: center;
+}
+.share_text {
+  width: 60%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+ text-align: center;
+  margin-top: 4em;
+  margin-bottom: 0.5em;
+  font-family: "Sacramento", cursive;
+  font-size:1.5em;
+  font-weight: 200;
+  color:black;
+  background-color: rgb(237,213,203);
 }
 
-.leftPanelImg {
+
+
+.icon:hover {
+  color:grey !important;
+  cursor:pointer;
+}
+
+
+.icon {
+  color: rgb(237,213,203) !important;
+}
+
+.plus {
+  color:grey;
+}
+
+.a2a_kit {
+  width: 15%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+/*------------------------NEXT ARTICLE---------------------------*/
+.next_article {
+width: 30%;
+float: right;
+margin-bottom: 2em;
+margin-top: 2em;
+}
+
+
+
+.next_link {
+float: left;
+ margin-right: 1em;
+  margin-left: 2.7em;
+  font-family: bold Montserrat,sans-serif;
+  font-size: 0.7em;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: grey !important;
+  padding-top:1em;
+  margin-top:0.8em;
+}
+
+.next_link:hover{
+  transition: 0.3s;
+  color: rgb(245, 224, 215)!important;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+
+/*----------------------------------------ARTICOLI CORRELATI*/
+
+.correlati {
+  list-style: none !important;
+  text-decoration: none;
   float: left;
-  margin-left: 1em;
-  margin-right: 0.5em;
+  width: 90%;
+  margin-bottom: 2em;
+  margin-top: 3em;
+  margin-left: 3em;
 }
 
-.rightPanel {
-  width:85%;
+.correlati-cg {
+  font-family: "Sacramento", cursive;
+  margin:0;
+  padding-bottom:0;
+  font-size: 1em;
+  color: grey;
+}
+
+.see_all {
+  list-style: none !important;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif !important;
+  float:right;
+  color: gray !important;
+
+  margin-top: -1em;
+  color: black;
+}
+
+.see_all:hover {
+  color: black;
+}
+
+.link_sfoglia {
+    width: 10%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
   float: left;
-  margin-left: 1%;
+  margin-top: 4em;
+
 }
 
-.clear {
-  clear:both;
+/*SIDE*/
+
+.primaparte {
+float:left;
+width:100%;
 }
 
-.postit {
-  width
+.p_foto {
+  width: 45%;
+  float:left;
+  clear: both;
+}
+
+.p_text {
+  margin-top: 2em;
+  width: 48%;
+  float: left;
+
+}
+
+.hello_side {
+  border-radius: 50%;
+}
+
+.h4_ciao {
+   font-family: "Cardo",sans-serif;
+  margin:0;
+  padding-bottom:0;
+  font-size: 1em;
+  color: grey;
+}
+
+.h5_nome {
+   font-family:'Playfair Display', serif;
+  font-size: 1em;
+  margin-bottom: 0 !important;
+  color:rgb(242, 202, 128);
+}
+
+.side_text {
+  width: 85%;
+  margin-top: 1em;
+  margin-left: 0.5em;
 }

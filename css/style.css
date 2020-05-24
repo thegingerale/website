@@ -788,7 +788,7 @@ hr {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 18%;
+  width: 15%;
   float:left;
   clear:all;
   margin-right:0.4%;
@@ -1900,6 +1900,18 @@ clear:both;
 .overlay {
     display: none !important;
   }
+
+.footer_mobile {
+  display: none !important;
+}
+.ig-iconmedia {
+  display: none !important;
+}
+
+ .presentationmobile {
+  display: none;
+ }
+
 span {
   display: none !important;
 }

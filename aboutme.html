@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" media="screen and (max-width:1200px)" type="text/css" href="css/mobile.css">
+<link rel="stylesheet" type="text/css" href="css/stylepost.css">
 <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Bellota+Text&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -20,6 +21,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
 
 <link rel="icon" type="image/png" width="100%" href="img/favicon.png">
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
@@ -60,12 +62,23 @@ input[type=submit] {
 <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/5c1bad099d553f2023b581de2/c083080cea1e73bd39b938680.js");</script>
 
 <style>
- .section_ciao {
-  background-image: url('img/frase.png');
-  background-size: contain;
-  background-repeat: no-repeat;
+ .backgroundblog {
+ 
+  width: 100%;
 
  }
+
+.parallax-container {
+  width: 100%;
+
+}
+
+
+.parallax_text {
+  z-index: 2;
+  position: relative;
+}
+
 
  .parallax {
   background: url('img/parallax.jpg') no-repeat center;
@@ -118,19 +131,19 @@ function closeNav() {
 </script>
   
 
+
+
+<div backgroundblog>
+<div class="blog">
+  <div class="il-mio-blog">
+    <h3 class="titolo">About me</h3>
+    <img class="firma" src="img/logo.gif">
+    <p class="p1"> - STORIA DI UNA RAGAZZA CHE AMA LE SPEZIE -  </p>
     
-<div class="presentation">
-  <div class="presentationwallpaper">
-    <img class="moodboard" src="img/board2.png" width="90%">
   </div>
 </div>
-
-
-<div class="presentationmobile">
-  <div class="presentationwallpaper">
-    <img class="moodboard" src="img/boardmobile.png" width="90%">
-  </div>
 </div>
+
 
 
 
@@ -138,7 +151,7 @@ function closeNav() {
   <nav class="navbar">
     <ul>
       <li><a class="navbar-brand" href="#"><img src="img/favicon.gif" width="30" height="30"></a></li>
-      <li><a class="active" href="index.html">home</a></li>
+      <li><a class="non_active" href="index.html">home</a></li>
       <li><a class= "non_active" href="diario_di_viaggio.html">diario di viaggio</a></li>
       <li><a class= "non_active" href="blog.html">blog</a>
         <ul class="dropdown">
@@ -148,56 +161,54 @@ function closeNav() {
         </ul> 
       </li>
       
-      <li><a class= "non_active" href="aboutme.html">about me</a></li>
+      <li><a class= "active" href="aboutme.html">about me</a></li>
       <li><a class= "non_active" href="contacts.html">contacts</a></li>
       <li><a class= "non_active" href="contacts.html">il progetto</a></li>
-            <li style="float:right"><a href="https://www.bloglovin.com/@thegingeraleblog" title="bloglovin'" ><i class="fa fa-heart" aria-hidden="true"></i></a></li>
+      <li style="float:right"><a href="https://www.bloglovin.com/@thegingeraleblog" title="bloglovin'" ><i class="fa fa-heart" aria-hidden="true"></i></a></li>
       <li style="float:right"><a href="https://www.pinterest.it/thegingerale/boards/" title="pinterest" ><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
       <li style="float:right"><a href="https://www.instagram.com/alessandrameriani/" title="instagram" ><i class="fa fa-instagram"></i></a></li>
       </div>
     </ul>
   </nav>
 </div>
-<div class="presentation">
-  <div class="presentationwallpaper" >
-    <section class="section_ciao">
-        <div class="widget_wrap">
-          <div class="textwidgetmobile">
-            <div class="onehalf" align="left">
-              <p class="p_page1"> Ciao! Sono Alessandra e ho 21 anni. Le mie passioni sono le cose che meglio mi identificano: amo il calore e la luce del sole, il vento leggero tra i capelli, il cappuccino di soia con la cannella, le poesie di Montale, le fragole, l'odore dei libri, le passeggiate in montagna, i fiori, il mare e i viaggi. <br> Da che ricordo ho sempre amato viaggiare: sin da piccolissima i miei genitori mi hanno portato in tante parti del mondo, pensate che a soli quattro mesi ero su un aereo per Santo Domingo. <br> Sono nata e vissuta in un piccolo paesino in provincia di Salerno, ma due anni fa, concluso il liceo scientifico mi sono trasferita a Bologna per frequentare l'Università . . .<br>
-             <!--E' stata una scelta difficile, ma credo sia stata la scelta migliore che abbia mai fatto. Mi ha consentito di crescere, di ritrovare me stessa, di coltivare le mie passioni...<br> "ThegingerAle" è la parte di me che ho imparato ad apprezzare, il mio lato più frizzante, impulsivo e solare. Ho deciso di costruire questo piccolo spazio online per condividere ciò che penso, ciò che faccio e ciò che mi fa stare bene, con la speranza di incuriosire, ispirare o semplicemente di dare positività a chiunque si ritrovi ad entrare. <br>
-             Benvenuto-->
-              </p>
-            </div>
-            <div class="moreaboutme">
-              <p><a class="btn_more" href="aboutme.html">more about me</a></p>
+<div class="thegingerale_presentazione">
+            <div class="ciao_sono">
+
+ <h3 class="titoletti">Ciao! </h3><br>
+              <p class="p_ginger">Sono Alessandra e ho 21 anni.
+              Ho sempre avuto paura di raccontarmi e di espormi dinnanzi ad occhi che potrebbero giudicarmi. <br>
+              Ma questo è il mio spazio personale e chi ci entra non solo è il <b>benvenuto</b>, ma ha anche il diritto di conoscermi un po'. E io, da buona <i>padrona di casa</i>, ho il dovere di presentarmi. <br><br>
+              Sono una grande sostenitrice di quella convinzione secondo la quale <i>una persona non è altro che la somma delle sue passioni</i>.<br> Mi sono sempre identificata di più con l'Essere che con l'Avere, ma se c'è qualcosa di cui non posso fare a meno di possedere, quelle sono le <b>piccole, grandi cose</b>: amo il calore e la luce del sole, il vento leggero tra i capelli, il cappuccino, rigorosamente di soia e con la cannella, le poesie di Montale, i tramonti, le nuvole che sembrano zucchero filato, tutto ciò che è vintage, la domenica mattina, le fragole, le sorprese, le teorie della fisica, quando diventano filosofia, il jazz, i sorrisi delle persone a cui voglio bene, le spezie, i colori, l'odore dei libri, la torta di compleanno di mia madre, le passeggiate in montagna, i fiori, il mare e i viaggi. </p>
+              <div class="immagine_ginger" >
+                 <img class="immagine_uno_ginger"src="img/ginger2.png">
+               </div>
+              <p class="p_ginger"><i>I viaggi . . . </i> Da che ricordo ho sempre amato viaggiare: sin da piccolissima i miei genitori mi hanno portato in tante parti del mondo (pensate che a soli quattro mesi ero su un aereo diretto a Santo Domingo). <br> Forse è per questo che sono terribilmente curiosa e affamata di avventure e mistero; tutto ciò che ignoto per me è degno di attenzione. Sono affascinata dalle culture che per noi occidentali sembrano essere le più stravaganti e il mio sogno è quello di trascorrere abbastanza tempo in posti diversi del Pianeta per poter dire di essermi sentita a casa in ciascuno di essi. . . <br><br> Sono nata e vissuta in un piccolo paesino in provincia di Salerno. Due anni fa, concluso il liceo scientifico mi sono trasferita a Bologna per frequentare l'Università. E' stata una scelta difficile otto molti punti di vista, ma credo sia stata una delle scelte migliori che abbia mai potuto fare.<br> Mi ha consentito di ritrovare quella parte di me che un'adolescenza non del tutto rosea mi aveva tolto, mi ha aiutato a crescere e mi ha dato la possibilità di coltivare le mie passioni...</p> 
               
-          </div>
-        </div>
-      </section>
-  </div>
+<span class="title-divider"></span>
+<h3 class="titoletti">Perchè "ThegingerAle"? </h3><br>
+              <p class="p_ginger">Ok, fino ad ora vi ho raccontato un po' di me. Ma ancora non ho svelato perchè io abbia scelto questo nome. <br> La birra mi piace, ma non è il significato che voglio dare a questo nome. "Ale", naturalmente, sta per me; "ginger" in inglese vuol dire "zenzero". Adoro questa spezia dal sapore pungente, un toccasana per i miei raffreddori frequenti. Di sicuro non vi importava di questa informazione, né il mio intento è quello di farvi da guaritrice orientale. <i>"To ginger up"</i>, in inglese, significa <i>ispirare, spronare, affascinare, rendere qualcuno entusiasta di qualcosa</i>.<br>
+              The ginger Ale è la parte di me che ho imparato ad apprezzare, il mio lato più frizzante, impulsivo e solare, innamorato della vita. Quella parte di me con la quale vorrei "to ginger up" ciascuno di voi.<br> E' per questo che ho deciso di costruire questo piccolo spazio online per condividere ciò che penso, ciò che faccio e ciò che mi fa stare bene, con la speranza di incuriosire, ispirare o semplicemente di dare positività a chiunque si ritrovi ad entrare. <br>
+              Credo che la vita debba essere basata sulla scoperta di se stessi e del mondo che ci circonda, senza mai dimenticare di innamorarsi ogni giorno delle "piccole, grandi cose".<br>
+              Detto questo, <b>BENVENUTO</b>.
+           
+              </p>
+               <div class="immagine_ginger" >
+<img class="immagine_uno_ginger"src="img/ginger.png">
 </div>
-
-
-<div class="presentationmobile">
-  <div class="presentationwallpaper" >
-  <div class="presentationwallpaper">
-    <img class="moodboardmobile" src="img/frasemobile.png" width="100%">
-  </div>
-    <section class="section_ciaomobile">
-        <div class="widget_wrap">
-          <div class="textwidget">
-            <div class="onehalfmobile" align="left">
-              <p class="p_page1"> Ciao! Sono Alessandra e ho 21 anni. Le mie passioni sono le cose che meglio mi identificano: amo il calore e la luce del sole, il vento leggero tra i capelli, il cappuccino di soia con la cannella, le poesie di Montale, le fragole, l'odore dei libri, le passeggiate in montagna, i fiori, il mare e i viaggi. <br> Da che ricordo ho sempre amato viaggiare: sin da piccolissima i miei genitori mi hanno portato in tante parti del mondo, pensate che a soli quattro mesi ero su un aereo per Santo Domingo. <br> Sono nata e vissuta in un piccolo paesino in provincia di Salerno, ma due anni fa, concluso il liceo scientifico mi sono trasferita a Bologna per frequentare l'Università . . .</p>
             </div>
-            <div class="moreaboutmemobile">
-              <p><a class="btn_more" href="aboutme.html">more about me</a></p>
-              </div>
-        
+           
         </div>
-      </section>
+    
+
+
+<div class="parallax-container">
+
+  <div class="parallax">
+     <p class="parallax_text">"Il vero viaggio non è cercare nuove terre <br> ma avere nuovi occhi." <br> - M. Proust</p>
   </div>
+
 </div>
+
 
   
 
@@ -330,13 +341,6 @@ function closeNav() {
 </section>
 </section> 
 
-<div class="parallax-container">
-
-  <div class="parallax">
-     <p class="parallax_text">"Il vero viaggio non è cercare nuove terre <br> ma avere nuovi occhi." <br> - M. Proust</p>
-  </div>
-
-</div>
 
 
 
@@ -459,7 +463,7 @@ function closeNav() {
     <hr width="100%" size="3">
     <ul class="info_list">
       <li><a class="info_text" href="contact.html">contact me</a></li>
-      <li><a class="info_text" href="aboutme.html">about</a></li>
+      <li><a class="info_text" href="about.html">aboutme</a></li>
       <li><a class="info_text" href="index.html">home</a></li>
       <li><a class="info_text" href="blog.html">blog</a></li>
     </ul> 

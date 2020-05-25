@@ -1150,12 +1150,6 @@ hr {
 
 }
 
-.parallax {
-  background: url('img/skincarebanner.jpg') no-repeat center;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 500px;
-}
 
 .parallax_text {
   z-index: 2;
@@ -1910,7 +1904,31 @@ clear:both;
   font-size: 1.3em;
 }
 
+.thegingerale_presentazione {
+  margin-top: 4em;
+  width: 100%;
+}
 
+.ciao_sono {
+  width: 80%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.p_ginger {
+  font-family: 'Hind Madurai', sans-serif;
+  font-size: 1.2em;
+  text-align: justify;
+
+}
+.immagine_ginger {
+  width: 100%;
+}
+.immagine_uno_ginger {
+  width: 100%;
+  margin-top: -1em;
+}
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 

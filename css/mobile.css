@@ -263,7 +263,15 @@ width:70%;
     width: 80%;
 }
 
-
+#mc_embed_signup {
+  margin-top: 10em;
+  margin-bottom: 10em;
+  background:#fff;  
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 }
 
 

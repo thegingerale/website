@@ -602,7 +602,23 @@ width:100%;
 }
 
 
+.contactme {
+  width:60%;
+  display: block;
+  margin-bottom: 4em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
 
+.connettiti {
+  text-decoration: none;
+  color:grey;
+}
+
+.connettiti:hover {
+  color: rgb(237,213,203);
+}
 @media only screen and (max-width:1200px) { 
 
   .container {
@@ -644,4 +660,5 @@ width:100%;
 .a2a_kit {
   width: 50%;
 }
+
 }

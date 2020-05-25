@@ -75,6 +75,11 @@ float: left;
 clear: all;
 }
 
+.menuparte a {
+   font-size: 115%;
+
+}
+
 
 .overlay a:hover, .overlay a:focus {
   color: #f1f1f1;

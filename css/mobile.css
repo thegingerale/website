@@ -12,9 +12,13 @@
     display: block;
     text-align: center;
     margin-bottom: 20%;
-    margin-top: -10%;
+    margin-top: 5% !important;
 
 }
+#hamburger {
+   margin-top: 5% !important;
+}
+
   .container {
     display: none;
   }
@@ -229,7 +233,7 @@ width:70%;
 
 .blog {
   width: 100%;
-  margin-top: 0 !important;
+  margin-top: 2em!important;
 }
 
 .titolo {

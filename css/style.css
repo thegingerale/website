@@ -288,7 +288,7 @@ nav ul li a#social:hover {
   font-size: 1.5em !important;
   color: black;
   padding-top: 0.5em;
-  padding-left: 4em;
+
 }
 
 .h5_hello {
@@ -302,7 +302,7 @@ nav ul li a#social:hover {
   font-family: 'Baloo 2', cursive;
   font-size: 1em !important;
   color: black; 
-  padding-left: 6em;
+
 }
 
 .hr_side {
@@ -753,6 +753,10 @@ article.pic_widget4 {
   border-radius: 50%;
 }
 
+.hello_side {
+  border-radius: 50%
+}
+
 hr {
   position: center;
   margin: 0;
@@ -802,6 +806,9 @@ hr {
  width: 100%;
 
 }
+
+
+
 
 
 /*IL MIO BLOG
@@ -1174,6 +1181,10 @@ hr {
 .sidenav {
   width: 20%;
 }
+.onehalfnav {
+  width: 48%;
+  float: left;
+}
 
 
 
@@ -1211,7 +1222,7 @@ hr {
   margin-bottom: 0.8em !important;
   font-family: 'Hind Madurai', sans-serif;
   font-size: 1em;
-  margin-left: -5.5em;
+
   color: grey;
   margin-top: 0.7em;
 }

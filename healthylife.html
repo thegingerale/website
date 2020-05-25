@@ -63,19 +63,22 @@ input[type=submit] {
 </head>
 
 <body>
-<span style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="fas fa-bars" id="hamburger"></i></span>
+<span class="hamburger" style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="fas fa-bars" id="hamburger"></i></span>
 <div id="myNav" class="overlay">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <div class="overlay-content">
  
     <img src="img/logo_thegingerale.gif" alt="thegingerale logo" class="menu_logo">
-
+<div class="menuparte">
     <a class="active" href="index.html">home</a>
     <a class= "non_active" href="diario_di_viaggio.html">diario di viaggio</a>
     <a class= "non_active" href="blog.html">blog</a>
+  </div>
+<div class="menuparte">
     <a class= "non_active" href="aboutme.html">about me</a>
     <a class= "non_active" href="contacts.html">contacts</a>
     <a class= "non_active" href="contacts.html">il progetto</a>
+  </div>
   </div>
 </div>
 
@@ -238,7 +241,7 @@ function closeNav() {
 </div>
 </div>
 
- <div class="sidenav">
+<div class="sidenav">
   <section class="kit_widget">
     <section class="title-block-wrap">
       <h7 class="title_block">author</h7>
@@ -246,18 +249,19 @@ function closeNav() {
     </section>
     <section class="widget_ciao">
       <div class="textwidget">
-        <div class="onehalfirst" align="left">
-              <p class="p_page1"><a href="aboutme.html"><img class="hello_side"src="img/hello.jpg" width="85" height="85" float="left"></a></p>
-              <h4 class="h4_side">Hello, </h4>
+        <div class="onehalfnav" align="left">
+              <a href="aboutme.html"><img class="hello_side"src="img/hello.jpg" width="85" height="85" float="left"></a>
+              
+        </div>
+        <div class="onehalfnav" align="left">
+          <h4 class="h4_side">Hello, </h4>
               <h5 class="h5_side">i'm Alessandra</h5>
+              
         </div>
-        <div class="onehalf" align="left">
-              <p class="p_page_side"><br clear="all">Sono una ragazza di 20 anni, nata e vissuta a Salerno...</p>
-        </div>
+        <p class="p_page_side"><br clear="all">Sono una ragazza di 21 anni, nata e vissuta a Salerno...</p>
       </div>
     </section>
   </section>
-  
   <section class="kit_widget">
     <section class="title-block-wrap">
       <h7 class="title_block">categories</h7>

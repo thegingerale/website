@@ -26,7 +26,7 @@
   right: 35px;
   }
 .overlay {
-  height: 100%;
+  height: 60%;
   width: 100%;
   position: fixed;
   z-index: 1;
@@ -58,6 +58,13 @@ font-family: 'Bellota Text', cursive, sans-serif;
  font-size: 150%;
 }
 
+.menuparte{
+width:48%;
+float: left;
+clear: all;
+}
+
+
 .overlay a:hover, .overlay a:focus {
   color: #f1f1f1;
 }
@@ -75,7 +82,7 @@ font-family: 'Bellota Text', cursive, sans-serif;
 }
 
 .menu_logo {
-  width:40%;
+  width:25%;
   margin-left: auto;
   margin-right: auto;
   display: block;

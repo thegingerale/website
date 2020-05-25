@@ -1,0 +1,288 @@
+/*styles for mobile*/
+@media only screen and (max-width:1200px) {
+
+.all {
+  width:100%;
+}
+.hamburger {
+    position: fixed;
+    width: 20%;
+    margin-left: 5%;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    margin-bottom: 20%;
+    margin-top: 5%;
+
+}
+  .container {
+    display: none;
+  }
+
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+.overlay {
+  height: 60%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+
+  background-color: #fff4ec;
+  overflow-x: hidden;
+  transition: 0.5s;
+  display: block;
+}
+
+.overlay-content {
+  position: relative;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  text-transform: uppercase;
+font-family: 'Bellota Text', cursive, sans-serif;
+ font-size: 150%;
+}
+
+.menuparte{
+width:48%;
+float: left;
+clear: all;
+}
+
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+#hamburger {
+  color: grey;
+
+}
+
+.menu_logo {
+  width:25%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: 10%;
+  margin-top: 15%;
+}
+
+.presentation {
+  display: none !important;
+}
+.presentationmobile{
+  margin-top: 15%;
+  width: 100%;
+}
+
+.closebtn {
+  width: 20%;
+  text-align: center;
+}
+
+.section_ciaomobile {
+  width: 100%;
+height: 35em;
+  margin-top: 0;
+  margin-bottom: -5.5em;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 0;
+  padding-left: 0em;
+  float: left;
+  display: block;
+}
+
+.moodboardmobile {
+  display: block;
+  margin-right: none;
+  margin-left: none;
+  margin-bottom: 0.5em;
+  margin-top: 1.8em;
+}
+
+.onehalfmobile {
+    text-align: justify;
+    padding-top: 2em;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; 
+    padding-bottom: 2em;   
+}
+
+.moreaboutmemobile {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 50%;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+
+
+.widgetmobile {
+ margin-top:4em;
+}
+
+.recent {
+  margin-left: 0.5em !important;
+}
+
+
+.testo_carousel {
+
+}
+
+.colonna_cg {
+  width: 100% !important;
+}
+
+.instagram {
+  margin-top: 30%;
+}
+
+.ig-icon {
+  display: none !important;
+}
+
+.ig-iconmedia {
+  margin-top: 2em;
+}
+
+.immagine_insta {
+  width:25%;
+  margin-right: none;
+}
+
+
+.footer {
+  display: none !important;
+}
+
+.form {
+  position: relative;
+  width: 100%;
+  float:left;
+  margin-left: 0.3em;
+}
+
+.footer_two {
+  margin-top: 55em;
+}
+
+.logo_footer {
+width:70%;
+}
+
+.logo_ginger_footer {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.info {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto,
+}
+
+.info_text_col {
+  font-size: 0.34em;
+}
+
+.parallax_text {
+  font-size: 1em;
+  width:80%;
+  padding:0;
+  padding-top: 30%;
+}
+
+#mc_embed_signup {
+    width: 90% !important;
+}
+
+.blog {
+  width: 100%;
+  margin-top: 0 !important;
+}
+
+.titolo {
+  font-size: 2.5em;
+}
+
+.p1 {
+  margin-top: 1em;
+}
+
+.sidenav {
+  display: none;
+}
+
+.all_articles {
+    width: 100%;
+}
+
+#myBtn1 {
+  right: 0px;
+}
+
+
+
+.colonna-3 {
+  margin: 0;
+}
+
+
+.p1_sezione {
+   margin-right: 0;
+   margin-left: 0;
+   margin-top: 1em;
+
+}
+
+.firma {
+    width: 80%;
+}
+
+#mc_embed_signup {
+  margin-top: 10em;
+  margin-bottom: 10em;
+  background:#fff;  
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+}
+
+
+
+
+
+

@@ -19,6 +19,13 @@
    margin-top: 5% !important;
 }
 
+.column {
+  width: 100% !important;
+}
+.colonna-3 {
+  width: 100% !important;
+}
+
   .container {
     display: none;
   }

@@ -169,7 +169,7 @@ height: 35em;
 }
 
 .widget_4 {
-    width: 100%;
+    width: 100% !important;
 }
 
 
@@ -299,6 +299,25 @@ width:70%;
   margin-right: auto;
   display: block;
 }
+
+.info_text_cols {
+  list-style-type: none;
+  display: block;
+  width:100%;
+  margin-left:0.5em;
+  text-align: center;
+  clear:all;
+}
+
+.colonna-3 {
+  margin:2em 0;
+}
+
+.text_lists li {
+  list-style-type: none;
+}
+
+
 }
 
 

@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168028690-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-168028690-1');
+</script>
+
 <title>Diario di viaggio | thegingerAle </title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -57,7 +67,7 @@ input[type=submit] {
 </head>
 
 <body>
-<span class="hamburger" style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="fas fa-bars" id="hamburger"></i></span>
+<span class="hamburger" style="font-size:30px;cursor:pointer;" onclick="openNav()"><i class="fas fa-bars" id="hamburger"></i></span>
 <div id="myNav" class="overlay">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <div class="overlay-content">
@@ -71,7 +81,7 @@ input[type=submit] {
 <div class="menuparte">
     <a class= "non_active" href="aboutme.html">about me</a>
     <a class= "non_active" href="contacts.html">contacts</a>
-    <a class= "non_active" href="contacts.html">il progetto</a>
+    <a class= "non_active" href="progetto.html">il progetto</a>
   </div>
   </div>
 </div>
@@ -92,7 +102,7 @@ function closeNav() {
 <div class="container"> 
   <nav class="navbar">
     <ul>
-      <li><a class="navbar-brand" href="#"><img src="img/favicon.gif" width="30" height="30"></a></li>
+      <li><a class="navbar-brand" href="index.html"><img src="img/favicon.gif" width="30" height="30"></a></li>
       <li><a class="non_active" href="index.html">home</a></li>
       <li><a class= "active" href="diario_di_viaggio.html">diario di viaggio</a></li>
       <li><a class= "non_active" href="blog.html">blog</a>
@@ -105,7 +115,7 @@ function closeNav() {
       
       <li><a class= "non_active" href="aboutme.html">about me</a></li>
       <li><a class= "non_active" href="contacts.html">contacts</a></li>
-      <li><a class= "non_active" href="contacts.html">il progetto</a></li>
+      <li><a class= "non_active" href="progetto.html">il progetto</a></li>
       <li style="float:right"><a href="https://www.bloglovin.com/@thegingeraleblog" title="bloglovin'" ><i class="fa fa-heart" aria-hidden="true"></i></a></li>
       <li style="float:right"><a href="https://www.pinterest.it/thegingerale/boards/" title="pinterest" ><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
       <li style="float:right"><a href="https://www.instagram.com/alessandrameriani/" title="instagram" ><i class="fa fa-instagram"></i></a></li>
@@ -135,7 +145,7 @@ function closeNav() {
     </div>
     <div class="corpus">
     <h2 class="title">
-    	<a class="title" href="ungiornoaparigi.html" title="Parigi in un giorno? Si, lo abbiamo fatto.">
+    	<a class="title" href="provvisorio.html" title="Parigi in un giorno? Si, lo abbiamo fatto.">
     	  <span class="category">Diario di viaggio</span>
     	  <span class="title_wrap">
     	    <span class="title-line">- Parigi in un giorno? Si, lo abbiamo fatto.</span>
@@ -151,11 +161,11 @@ function closeNav() {
     <p class="parte">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis ...</p>
     <li class="by-me">
     	<i class="by">by</i>
-    	<a href="#" class="me"> alessandra meriani</a>
+    	<a href="aboutne.html" class="me"> alessandra meriani</a>
     	<i class="date">- febbraio 2020</i>
     </li>
     <li class="read-more">
-      <a class="button" href="ungiornoaparigi.html" title="Parigi in un giorno? Si, lo abbiamo fatto.">read more</a>
+      <a class="button" href="provvisorio.html" title="Parigi in un giorno? Si, lo abbiamo fatto.">read more</a>
     </li>
 
     </div>
@@ -165,13 +175,13 @@ function closeNav() {
 
   <div class="column">
   	<div class="image">
-  	<a class="image" href="#">
+  	<a class="image" href="provvisorio.html">
   	<img class="img_article" src="img/costiera.gif" alt="costiera amalfitana">
     </a>
     </div>
     <div class="corpus">
     <h2 class="title">
-    	<a class="title" href="#" title="Cosa vedere in Costiera Amalfitana: i consigli di un'insider.">
+    	<a class="title" href="provvisorio.html" title="Cosa vedere in Costiera Amalfitana: i consigli di un'insider.">
     	  <span class="category">Diario di viaggio</span>
     	  <span class="title_wrap">
     	    <span class="title-line">- Cosa vedere in Costiera Amalfitana: i consigli di un'insider.</span>
@@ -187,11 +197,11 @@ function closeNav() {
     <p class="parte">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis ...</p>
     <li class="by-me">
     	<i class="by">by</i>
-    	<a href="#" class="me"> alessandra meriani</a>
+    	<a href="aboutme.html" class="me"> alessandra meriani</a>
     	<i class="date">- febbraio 2020</i>
     </li>
     <li class="read-more">
-      <a class="button" href="#" title="Cosa vedere in Costiera Amalfitana: i consigli di un'insider.">read more</a>
+      <a class="button" href="provvisorio.html" title="Cosa vedere in Costiera Amalfitana: i consigli di un'insider.">read more</a>
      </li>
 
     </div>
@@ -201,13 +211,13 @@ function closeNav() {
 
   <div class="column">
     <div class="image">
-    <a class="image" href="#">
+    <a class="image" href="provvisorio.html">
     <img class="img_article" src="img/bormio.gif" alt="terme di bormio">
     </a>
     </div>
     <div class="corpus">
     <h2 class="title">
-      <a class="title" href="#" title="Weekend romantico a Bormio, tra terme e buon cibo.">
+      <a class="title" href="provvisorio.html" title="Weekend romantico a Bormio, tra terme e buon cibo.">
         <span class="category">Diario di viaggio</span>
         <span class="title_wrap">
           <span class="title-line">- Weekend romantico a Bormio, tra terme, buon cibo e tanto relax.</span>
@@ -223,11 +233,11 @@ function closeNav() {
     <p class="parte">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis ...</p>
     <li class="by-me">
       <i class="by">by</i>
-      <a href="#" class="me"> alessandra meriani</a>
+      <a href="aboutme.html" class="me"> alessandra meriani</a>
       <i class="date">- febbraio 2020</i>
     </li>
     <li class="read-more">
-      <a class="button" href="#" title="Weekend romantico a Bormio, tra terme e buon cibo.">read more</a>
+      <a class="button" href="provvisorio.html" title="Weekend romantico a Bormio, tra terme e buon cibo.">read more</a>
      </li>
 
     </div>
@@ -237,13 +247,13 @@ function closeNav() {
 
   <div class="column">
   	<div class="image">
-  	<a class="image" href="#">
+  	<a class="image" href="provvisorio.html">
   	<img class="img_article" src="img/marocco.gif" alt="marocco">
     </a>
     </div>
     <div class="corpus">
     <h2 class="title">
-    	<a class="title" href="#" title="Cosa vedere in Marocco, i luoghi più belli in un solo giorno">
+    	<a class="title" href="provvisorio.html" title="Cosa vedere in Marocco, i luoghi più belli in un solo giorno">
     	  <span class="category">Diario di viaggio</span>
     	  <span class="title_wrap">
     	    <span class="title-line">- Cosa vedere in Marocco, i luoghi più belli in un solo giorno.</span>
@@ -259,11 +269,11 @@ function closeNav() {
     <p class="parte">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis ...</p>
     <li class="by-me">
     	<i class="by">by</i>
-    	<a href="#" class="me"> alessandra meriani</a>
+    	<a href="aboutme.html" class="me"> alessandra meriani</a>
     	<i class="date">- febbraio 2020</i>
     </li>
     <li class="read-more">
-      <a class="button" href="#" title="Cosa vedere in Marocco, i luoghi più belli in un solo giorno">read more</a>
+      <a class="button" href="provvisorio.html" title="Cosa vedere in Marocco, i luoghi più belli in un solo giorno">read more</a>
      </li>
     </div>
  </div>  
@@ -360,17 +370,12 @@ function closeNav() {
   </div>
   <div class="btn_widget_insta">
       <h4 class="title_widget_insta">
-        <a class="follow_me" href="" title="follow me on ista">follow me   <i class="fa fa-instagram"></i></a>
+        <a class="follow_me" href="https://www.instagram.com/alessandrameriani/" title="follow me on ista">follow me   <i class="fa fa-instagram"></i></a>
       </h4>
   </div>
 </section>
 
-<section class="kit_widget">
-    <section class="title-block-wrap">
-      <h7 class="title_block">services</h7>
-      <hr class="hr_side" width="85%" size="0.5" color="grey">
-    </section>
- </section>
+
 
 
 
@@ -436,7 +441,7 @@ function closeNav() {
     <h1 class="info_title">info</h1>
     <hr width="100%" size="3">
     <ul class="info_list">
-      <li><a class="info_text" href="contact.html">contact me</a></li>
+      <li><a class="info_text" href="contacts.html">contact me</a></li>
       <li><a class="info_text" href="aboutme.html">about</a></li>
       <li><a class="info_text" href="index.html">home</a></li>
       <li><a class="info_text" href="blog.html">blog</a></li>
@@ -518,7 +523,7 @@ function closeNav() {
     <h1 class="info_title">info</h1>
     <hr width="100%" size="3">
     <ul class="info_list">
-      <li><a class="info_text" href="contact.html">contact me</a></li>
+      <li><a class="info_text" href="contacts.html">contact me</a></li>
       <li><a class="info_text" href="aboutme.html">about</a></li>
       <li><a class="info_text" href="index.html">home</a></li>
       <li><a class="info_text" href="blog.html">blog</a></li>

@@ -203,6 +203,10 @@ height: 35em;
   display: none !important;
 }
 
+.footer_mobile {
+  margin-top: 310em;
+}
+
 .form {
   position: relative;
   width: 100%;

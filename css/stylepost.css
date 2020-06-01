@@ -85,6 +85,7 @@ h1.first_title {
 
 .corpus_post {
 	margin: 1.5em 4em;
+  font-size: 1.3em;
 }
 .corpus_post::first-letter {
   font-size: 2em;
@@ -102,7 +103,6 @@ letter-spacing: 0.5px;
 
 .parte_post {
   font-family: 'Hind Madurai', sans-serif;
-  font-size: 1.2em;
   margin-top:1.6em;
   margin-bottom: 3em !important;
 }

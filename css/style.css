@@ -350,6 +350,21 @@ nav ul li a#social:hover {
   color: white;
 }
 
+
+
+
+
+
+/*progetto*/
+
+.progetto {
+  width:100%;
+}
+
+.slide_progetto {
+  width:100%;
+}
+
 /*WIDGET*/
 
 .widget_area {

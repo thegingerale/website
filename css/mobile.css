@@ -204,8 +204,21 @@ height: 35em;
 }
 
 .footer_mobile {
-  margin-top: 310em;
+  margin-top: 0em;
 }
+
+#diario {
+  margin-top: 150em;
+}
+
+#blog {
+  margin-top: 320em;
+}
+
+#lifestyle {
+  margin-top: 105em;
+}
+
 
 .form {
   position: relative;

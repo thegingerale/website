@@ -313,6 +313,10 @@ nav ul li a#social:hover {
 }
 
 
+.tutti_contatti{
+  margin-top:15em;
+}
+
 .p_page1 {
   justify-content: center;
   margin-bottom: 0.8em !important;
@@ -331,7 +335,7 @@ nav ul li a#social:hover {
   transition: 0.3s;
   cursor:pointer;
   background-color: transparent;
-  margin-top: 1em;
+  margin-top: 5em;
   content: center;
   text-align: center;
   border: 2px solid #ccc;

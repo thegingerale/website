@@ -329,6 +329,7 @@ nav ul li a#social:hover {
   padding-top: 35em;
   padding-left: 2.8em;
 }
+
 .btn_more {
   list-style: none !important;
   text-decoration: none;
@@ -1980,6 +1981,134 @@ clear:both;
   width: 100%;
   margin-top: -1em;
 }
+
+
+/*PROGETTO*/
+
+.all_progetto {
+  width: 80%;
+  display: block;
+  margin: 4em auto;
+
+}
+
+
+.title_progetto{
+  text-align: center;
+  margin-top: 6.5em;
+  margin-bottom: 4em;
+}
+
+
+
+
+h1.first_title {
+
+  font-size: 2.5em;
+  margin-bottom: 0 !important;
+  font-weight: 200;
+  font-family: "Playfair Display", cursive;
+
+}
+
+.second_title {
+ font-size: 2em;
+ font-weight: 400;
+ font-family: "Sacramento", cursive;
+ margin-top: -0.25em;;
+}
+
+.corpus_post {
+  width: 60%;
+  display: block;
+  margin-bottom:4em;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: justify;
+}
+
+.rosa {
+   color: #e89f9b; 
+}
+
+.slide_doc {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+
+.rosa:hover {
+  color: grey;
+}
+
+#style {
+  margin-top: 2em;
+  margin-bottom:-1.5em;
+}
+
+.giallo {
+  color: #f2ca80;
+}
+
+.grey {
+  color: grey;
+}
+
+.bellota {
+
+  font-family: "Bellota text";
+  text-transform: uppercase;
+}
+
+.montserrat {
+
+  font-family: "Montserrat";
+  text-transform: uppercase;
+}
+
+.playfair {
+  
+  font-family: "Playfair Display";
+
+}
+
+.cardo {
+  
+  font-family: "Cardo";
+
+}
+
+.sacramento {
+  
+  font-family: "Sacramento";
+  font-size: 1.5em;
+
+}
+
+.hind{
+  
+  font-family: "Hind Madurai";
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
